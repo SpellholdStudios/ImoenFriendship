@@ -1,0 +1,129 @@
+// Dialogues
+
+// PP 1
+IF 
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    Global("I#ImoenToBPP1","GLOBAL",0)
+    GlobalGT("BeginChallenge1","GLOBAL",11)
+    CombatCounter(0)
+    !See([ENEMY])
+THEN
+  RESPONSE #100
+     SetGlobal("I#ImoenToBPP1","GLOBAL",1)
+     RealSetGlobalTimer("I#ImoenToBPP1Timer","GLOBAL",120)
+END
+
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    Global("I#ImoenToBPP1","GLOBAL",1)
+    RealGlobalTimerExpired("I#ImoenToBPP1Timer","GLOBAL")
+THEN
+  RESPONSE #100
+     SetGlobal("I#ImoenToBPP1","GLOBAL",2)
+END
+
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    CombatCounter(0)
+    !See([ENEMY])
+    Global("I#ImoenToBPP1","GLOBAL",2)
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+    Dialogue(Player1)
+END
+
+
+// PP 3
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    Global("I#ImoenToBPP3","GLOBAL",0)
+    GlobalGT("BeginChallenge3","GLOBAL",2)
+    CombatCounter(0)
+    !See([ENEMY])
+THEN
+  RESPONSE #100
+     SetGlobal("I#ImoenToBPP3","GLOBAL",1)
+     RealSetGlobalTimer("I#ImoenToBPP3Timer","GLOBAL",600)
+END
+
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    Global("I#ImoenToBPP3","GLOBAL",1)
+    RealGlobalTimerExpired("I#ImoenToBPP3Timer","GLOBAL")
+THEN
+  RESPONSE #100
+     SetGlobal("I#ImoenToBPP3","GLOBAL",2)
+END
+
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    CombatCounter(0)
+    !See([ENEMY])
+    Global("I#ImoenToBPP3","GLOBAL",2)
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+    Dialogue(Player1)
+END
+
+
+// Saradush
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    Global("I#ImoenToBSaradush","GLOBAL",0)
+    Global("SaradushSacked","GLOBAL",1)
+    CombatCounter(0)
+    !See([ENEMY])
+THEN
+  RESPONSE #100
+     SetGlobal("I#ImoenToBSaradush","GLOBAL",1)
+     RealSetGlobalTimer("I#ImoenToBSaradushTimer","GLOBAL",300)
+END
+
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    Global("I#ImoenToBSaradush","GLOBAL",1)
+    RealGlobalTimerExpired("I#ImoenToBSaradushTimer","GLOBAL")
+THEN
+  RESPONSE #100
+     SetGlobal("I#ImoenToBSaradush","GLOBAL",2)
+END
+
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    CombatCounter(0)
+    !See([ENEMY])
+    Global("I#ImoenToBSaradush","GLOBAL",2)
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+    Dialogue(Player1)
+END

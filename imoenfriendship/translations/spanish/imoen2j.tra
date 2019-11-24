@@ -1,0 +1,199 @@
+// 1.
+
+@0    = ~Estaba empezando a preguntarme si alguna vez vendríais a buscarme.~ [lk#blank]
+@1    = ~Esperé y esperé, pero nunca aparecíais.~
+@2    	= ~Lo siento. Intenté darme toda la prisa que pude.~
+@3    	= ~No sé qué decir.~
+@4    	= ~Solo fueron unas semanas, Imoen.~
+@5    	= ~Dad gracias de que al final fuera a buscaros.~
+@6    = ~Claro... Sí, claro que lo hicisteis. Sé que hicisteis todo lo posible. Es que...~
+@7    = ~Recuerdo... que la única forma que tenía de medir el tiempo era cuando iba a verme. Cada día hablaba conmigo, y me contaba... cosas.~
+@8    = ~A veces me costaba mucho encontrarle el sentido a sus palabras. Me hablaba, y yo escuchaba porque no había nada más que las cuatro paredes y el techo de la celda. Intenté no hacerlo, pero...~
+@9    = ~Lo intenté con todas mis fuerzas, pero siempre conseguía... meterse en mi cabeza.~
+@10   = ~Me arrebató la voluntad, y en ocasiones sentí... que era mejor así. Llegué a desear que...~
+@11   = ~Ya basta, no debería seguir. No fue por vuestra culpa. Vos me salvasteis. No sé qué hubiera hecho si... nunca hubierais aparecido.~
+@12   	= ~Tranquila. Ya no tenéis de qué preocuparos.~
+@13   	= ~Por supuesto que fui a salvaros. Sois mi hermana.~
+@14   	= ~Sé que debisteis sufrir lo indecible, pero ahora estáis aquí, conmigo. Todo ha terminado.~
+@15   	= ~Pero lo hice, así que dejad el tema de una vez.~
+@16   = ~Si vos lo decís... La verdad es que no lo sé.~
+@17   = ~Sí. No es que no os esté agradecida, es que...~
+@18   = ~Sé que vamos a seguir adelante. Pero yo...~
+@19   = ~Gracias.~
+@20   = ~Lo sé. Pero yo...~
+@21   = ~Cuando me desperté en el Sanatorio y vi su cara...~
+@22   = ~Al principio pensé que estaba soñando, o que todo era una broma de mal gusto. No podía creerlo. Me dijo... me dijo que nunca vendríais a buscarme.~
+@23   = ~Lamento haber dudado de vos.~
+@24   	= ~Fue él quien hizo que dudarais. No tenéis que darle tanta importancia.~
+@25   	= ~Un mago chiflado os encerró, os hizo solo los dioses saben qué... ¿y os preocupaba el hecho de haber dudado de mí?~
+@26   	= ~Siempre estaré a vuestro lado. Siempre.~
+@27   	= ~Mmm... Vale, no pasa nada.~
+@28   = ~Nunca debería haber dudado de vos. Sois <CHARNAME>, ¿no? Sois el hermanito que nunca me ha defraudado.~
+~Nunca debería haber dudado de vos. Sois <CHARNAME>, ¿no? Sois la hermanita que nunca me ha defraudado.~
+@29   = ~Vale, dicho así parece una tontería, pero... nunca debería haber dudado de vos. Nunca me habéis defraudado.~
+@30   = ~Lo sé.~
+@31   = ~Nunca debería haber dudado de vos. Lo siento. Lo sabía, pero... Me alegro de que me rescatarais.~
+@32   = ~Continuemos.~
+@33   = ~No siempre.~
+
+// 2.
+
+@34   = ~Y bien, <CHARNAME>, ¿qué tal está hoy el oscuro agujero donde antes estaba vuestra alma?~ [lk#blank]
+@35   	= ~Bien, gracias.~
+@36   	= ~No estoy muy seguro de si reírme o miraros con escepticismo.~
+~No estoy muy segura de si reírme o miraros con escepticismo.~
+@37   	= ~Espero al menos que estéis bromeando.~
+@38   	= ~Ahora mismo no estoy para bromas, Imoen.~
+@39   = ~¿Nada de no recordar dónde habéis estado? ¿Nada de furia asesina?~
+@40   = ~Nunca se sabe con los Hijos de Bhaal. Un día estamos riendo a mandíbula batiente y al minuto siguiente, ¡PAM!, muerte y destrucción.~
+@41   = ~Vaya, ¡creo que ahora mismo me está entrando una furia homicida!~
+@42   	= ~¿Os encontráis bien?~
+@43   	= ~¿Os ocurre algo, Imoen?~
+@44   	= ~De verdad que no tenemos tiempo para esto.~
+@45   	= ~¡Rápido, que alguien consiga un arma antes de que nos mate a todos con su mal humor!~
+@46   = ~Podéis hacer las dos cosas, aunque quedaría bastante raro. Así que, eh...~
+@47   = ~Oh, no estoy bromeando. Para nada. Así que, eh...~
+@48   = ~Oh vale, señorita Cascarrabias. Si no puedo hacer una broma, quizá no debería devolveros aquellas botas que cogí hace un rato de vuestra mochila.~
+@49   	= ~No digáis tonterías.~
+@50   	= ~¿Y estas bromas?~
+@51   	= ~De verdad que no tenemos tiempo para esto.~
+@52   = ~Oh vale, señorito Cascarrabias. Si no puedo hacer una broma, quizá no debería devolveros aquellas botas que cogí hace un rato de vuestra mochila.~
+@53   = ~¿Por qué no debería estarlo?~
+@54   	= ~Bueno, últimamente vos tampoco sois la alegría personificada.~
+@55   	= ~No me merezco eso, Imoen.~
+@56   	= ~¿No comentabais hace poco lo afectada que aún estabais?~
+@57   	= ~Seguid así, no me importa.~
+@58   = ~¿Qué queréis decir?~
+@59   = ~Supongo que no.~
+@60   = ~*Suspiro* No me parece tan malo cuando me lo tomo a broma.~
+@61   = ~Además, si yo no bromeara, ¿quién de aquí lo haría?~
+@62   = ~Lo siento. No intentaba...~
+
+// 3.
+
+@63   = ~¿Recordáis la mazmorra, <CHARNAME>?~ [lk#blank]
+@64   	= ~¿*Su* mazmorra?~
+@65   	= ~No es precisamente fácil de olvidar.~
+@66   	= ~Intento no hacerlo.~
+@67   	= ~Me encanta recordar los lugares donde me han torturado y utilizado como conejillo de Indias.~
+@68   	= ~¿Vos qué creéis?~
+@69   = ~No, no lo es.~
+@70   = ~No... no he dormido. Intento no hacerlo, porque entonces...~
+@71   = ~A veces es la mazmorra, otras el Sanatorio. Pero él siempre está ahí, observando, cortando, explicando por qué lo hace...~
+@72   = ~Me aterroriza porque... porque me veo a mí misma escuchando, fascinada por la sangre, y deseando... coger el cuchillo, y cortar.~
+@73   = ~Quiero... quiero matar, herir; estoy hambrienta de sangre...~
+@74   = ~Me hizo cosas, <CHARNAME>. Me destrozó totalmente y ahora... me siento fatal.~
+@75   	= ~Ya ha pasado todo. Estáis a mi lado; no tenéis que preocuparos más.~
+@76   	= ~Superadlo de una vez, Imoen. No tengo tiempo para serviros de hombro en el que llorar.~
+@77   	= ~¿Es que os creéis que a mí no me hizo nada?~
+@78   	= ~¿De verdad he de escuchar esto? Tengo cosas más importantes que hacer que escuchar vuestros balbuceos. Asumidlo de una vez.~
+@79   = ~Eso no es cierto, <CHARNAME>, aún no ha terminado. No lo comprendéis. Me rompió en pedazos y... ¡y es imposible que lo supere porque aún le pertenezco!~
+@80   = ~No lo comprendéis, <CHARNAME>. Me rompió en pedazos y... ¡y es imposible que lo supere porque aún le pertenezco!~
+@81   = ~Me habló. Me dijo cosas que nunca os hubiera dicho a vos porque sois demasiado fuerte, porque lo hubierais soportado. Pero yo... yo fui demasiado débil.~
+@82   = ~No... no lo comprendéis. Me rompió en pedazos y... ¡y es imposible que lo supere porque aún le pertenezco!~
+@83   = ~¿Mis... mis *balbuceos*?~
+@84   = ~Yo... No importa, intentaré no volver a importunaros.~
+@85   = ~Lo siento.~
+@86   = ~No estoy entera. Puedo sentir en mi interior una oscuridad que crece cada vez más, que se alimenta de mi existencia, y no tengo ni idea de cuánto queda de *mí*.~
+@87   	= ~No permitiré que os consuma. Juro que recuperaré vuestra alma.~
+@88   	= ~Todo irá bien, hermanita. Juntos lo superaremos.~
+~Todo irá bien, hermanita. Juntas lo superaremos.~
+@89   	= ~Yo también puedo sentirlo. Me aterroriza pensar en ello.~
+@90   	= ~Vamos, no seáis tan melodramática. Ni que os fuerais a morir.~
+@91   = ~Vale. Confío en vos. Si decís que podemos, es que podemos, pero por favor...~
+@92   = ~Por favor, terminemos cuanto antes.~
+@93   = ~No es la muerte lo que temo.~
+
+// 4.
+
+@94   = ~Ya me siento mejor. Me siento entera de nuevo.~ [IMOEN69]
+@95   = ~Y justo cuando creía que nunca más volvería a la normalidad.~
+@96   = ~Nunca pensé que precisamente yo fuera a decir esto, pero doy gracias a los dioses. No sabía cuánto más iba a poder aguantar.~
+@97   	= ~¿De verdad estáis bien?~
+@98   	= ~Me alegro de que al menos uno de los dos tenga su alma.~
+~Me alegro de que al menos una de las dos tenga su alma.~
+@99   	= ~Intentad no perderla otra vez, ¿vale?~
+@100  	= ~Últimamente os encontrabais muy mal.~
+@101  = ~No, no lo estoy.~
+@102  = ~Dudo que alguien en nuestra situación pudiera decir que está bien, pero... estoy mejor. Ya no me siento vacía.~
+@103  = ~Ahora todo irá a mejor. Lo sé.~
+@104  = ~Lo cogeremos. Y cuando lo hagamos, ni los mismos dioses podrán infligirle el mismo dolor que le haremos pasar por todo lo que nos ha hecho.~
+@105  = ~Haré todo lo que esté en mi mano para ayudaros, hermanito. Me habéis salvado, y ahora pienso hacer lo mismo por vos.~
+~Haré todo lo que esté en mi mano para ayudaros, hermanita. Me habéis salvado, y ahora pienso hacer lo mismo por vos.~
+@106  = ~Je. Haré lo que pueda.~
+@107  = ~Sí.~
+@108  = ~Pero... todo irá a mejor. Lo sé.~
+
+// 5.
+
+@109  = ~Cuesta imaginar que alguien quisiera destruir algo tan bello, incluso Irenicus.~
+@110  	= ~No deja de sorprendernos lo bajo que puede caer.~
+@111  	= ~Sí, la verdad es que me cuesta creerlo.~
+@112  	= ~Las personas pueden hacer cualquier cosa por venganza.~
+@113  	= ~Tenemos que detenerlo antes de que cause más daño. Vamos.~
+@114  = ~No creo que haya caído *más* bajo. Ya lo había intentado antes, solo que esta vez parece haberlo conseguido.~
+@115  = ~Siempre me había preguntado cómo era una ciudad élfica de verdad. Es aún más increíble que en los cuentos.~
+@116  = ~Ya lo había intentado antes, solo que esta vez parece que lo ha conseguido.~
+@117  = ~Y como la venganza es lo único que le queda, solo nos queda esperar lo peor de él.~
+@118  = ~Os sigo. Terminemos con esto de una vez.~
+@119  = ~No estoy segura de si podría haberlo evitado. Adonde quiera que vaya causa muerte y destrucción. Incluso aquello a lo que más estima.~
+@120  = ~Amaba a Elesime más que a nada en este mundo, incluso cuando fue maldecido. Fue culpa suya, claro, pero...~
+@121  = ~Es como si todo lo que tocara se redujera a cenizas. No podía evitarlo.~
+@122  	= ~Parece que sentís lástima por él.~
+@123  	= ~En ocasiones me pregunto si los Hijos de Bhaal somos tan diferentes.~
+@124  	= ~Se merece todo lo que le pase.~
+@125  	= ~Pues claro que podía evitarlo. ¿Qué tontería es esa?~
+@126  = ~Supongo que un poco, sí.~
+@127  = ~Aún recuerdo el canto de los monjes: "El caos será sembrado a su paso. Así habló el sabio Alaundo".~
+@128  = ~La diferencia es que nosotros intentamos hacer el bien. Intentamos corregir nuestros errores y estamos tratando de *impedir* que sucedan cosas terribles.~
+~La diferencia es que nosotras intentamos hacer el bien. Intentamos corregir nuestros errores y estamos tratando de *impedir* que sucedan cosas terribles.~
+@129  = ~Supongo que siento lástima por él.~
+@130  = ~Quizá, no lo sé. Supongo que siento lástima por él.~
+@131  = ~No sé. Quizá allá algo... malo en mí. Pero puedo entender de dónde viene, aunque no por eso deje de odiarlo.~
+@132  = ~Lo que más miedo me da es que probablemente lo conozca mejor que cualquier otra persona en este mundo.~
+@133  = ~Y los dos sabemos qué significa no tener alma. Él no ha tenido durante mucho, mucho tiempo...~
+@134  	= ~Entiendo lo que queréis decir.~
+@135  	= ~Puede ser, pero después de lo que ha hecho...~
+@136  	= ~Soy incapaz de sentir lástima por él.~
+@137  = ~Mirad lo que le hicieron. Le arrebataron el alma, su vida y todo lo que más apreciaba.~
+@138  = ~No me extraña que desee vengarse.~
+@139  = ~Creo que una pequeña parte de él desea la muerte, aunque vaya a luchar con todas sus fuerzas para evitarla.~
+@140  = ~Ya basta de charla. Acabemos con esto.~
+@141  = ~Lo que ha hecho es imperdonable. Debe morir.~
+@142  = ~Sigo odiándolo. Lo que ha hecho es imperdonable, y tiene que morir por ello.~
+
+// 6.
+
+@143  = ~Y... aquí estamos. Nos va que ni pintado, supongo. Era cuestión de tiempo que acabáramos aquí, ¿no creéis, hermanito? Con lo mal que nos hemos portado.~
+~Y... aquí estamos. Nos va que ni pintado, supongo. Era cuestión de tiempo que acabáramos aquí, ¿no creéis, hermanita? Con lo mal que nos hemos portado.~ [lk#blank]
+@144  	= ~Vos seguro que sí. Aunque yo no sé qué hago aquí.~
+@145  	= ~Tenéis toda la razón.~
+@146  	= ~E Irenicus mucho más.~
+@147  	= ~Sigamos adelante.~
+@148  = ~Claro, olvidaba que sois moralmente superior. Oh, siento recordaros que nuestro papaíto fue el Dios del Asesinato y todo eso.~
+@149  = ~Sí. Especialmente siendo nuestro papaíto el Dios del Asesinato.~
+@150  = ~Tenéis razón. Y también para nosotros, siendo nuestro querido papá el Dios muerto del Asesinato.~
+@151  = ~Ooh, ¿no tenemos tiempo para contemplar el paisaje? No me sorprende que también hayamos terminado aquí, teniendo en cuenta que nuestro querido y ya fallecido papá fue el Dios del Asesinato.~
+@152  = ~¿Qué? ¿Os gusta volver a casa?~
+@153  	= ~Pues no mucho, la verdad.~
+@154  	= ~Fuego, azufre, demonios... ¿Qué más podría pedir?~
+@155  	= ~Sigamos adelante. No quiero estar ni un minuto más de lo necesario en este lugar.~
+@156  = ~Oh, vamos, solo estamos llevando la acción a un plano más bajo. No me esperaba esto de vos, <CHARNAME>.~
+@157  = ~No se me ocurre nada más, la verdad.~
+@158  = ~Sé a lo que os referís. No es especialmente agradable, ¿verdad?~
+@159  = ~En fin... Quería deciros que me alegro de que sigamos juntos. Habéis hecho mucho por mí; mucho más de lo que nunca os podré pagar.~
+~En fin... Quería deciros que me alegro de que sigamos juntas. Habéis hecho mucho por mí; mucho más de lo que nunca os podré pagar.~
+@160  = ~Hemos pasado por muchas cosas, ¿eh? Guerras, torturas, sanatorios, dragones... Suena casi imposible, pero logramos superarlo todo.~
+@161  	= ~Un poco a trancas y barrancas, diría yo.~
+@162  	= ~Y no hubiera querido a nadie más a mi lado.~
+@163  	= ~Y aquí estamos, listos para el final.~
+~Y aquí estamos, listas para el final.~
+@164  = ~Sí, aunque no creo que quisiera salir de la misma forma que empecé.~
+@165  = ~Ni yo.~
+@166  = ~Podéis estar seguro de eso.~
+~Podéis estar segura de eso.~
+@167  = ~Siempre ocurren cosas malas, pero somos mejores que eso, ¿verdad? Lo que no nos mata nos hace más fuertes.~
+@168  = ~Así que esto no debería costarnos demasiado. Vamos a destrozar a ese... ese *mago* y a recuperar nuestras vidas.~
+@169  = ~Gracias por todo. No podría imaginar un hermanito mejor.~
+~Gracias por todo. No podría imaginar una hermanita mejor.~
+@170  = ~Y ahora, vamos a matar a ese bastardo.~

@@ -1,0 +1,90 @@
+// 1.
+
+@0    = ~"El caos será sembrado a su paso".~
+@1    = ~No lo decía de broma, ¿eh?~
+@2    	= ~Pues no.~
+@3    	= ~Ojalá lo hubiera hecho.~
+@4    	= ~No puedo creer que aún os acordéis de eso.~
+@5    	= ~¿Qué importa?~
+@6    = ~Creo que en los últimos meses he visto más ciudades asaltadas que en toda mi vida, y todos los ataques guardan relación con los Hijos de Bhaal.~
+@7    = ~Primero Sarevok, después Irenicus, ahora Yaga-Shura... El caos se ha sembrado bien, sí.~
+@8    = ~Hemos visto qué implica ser un Hijo de Bhaal. Lo que sucede cuando alguien sucumbe a la mancha. Saradush tan solo le da... un nuevo significado.~
+@9    = ~Todas esas vidas... puf, han desaparecido. Y todo por el ansia de poder.~
+@10   	= ~Por eso tenemos que detenerlo.~
+@11   	= ~Me da miedo pensar que podríamos haber acabado así.~
+@12   	= ~Por eso no podemos sucumbir ante la mancha.~
+@13   = ~¡Eh, que yo a veces también presto atención! Además, Gorion me lo metió bien en la cabezota.~
+@14   = ~Ahora sabemos por qué.~
+@15   = ~No tenéis por qué poneros así, señorito Cascarrabias. Solo estaba pensando en voz alta.~
+~No tenéis por qué poneros así, señorita Cascarrabias. Solo estaba pensando en voz alta.~
+@16   = ~Sí, eso haremos.~
+@17   = ~¿Vos, miedo? Je, me cuesta imaginarlo. ¡Sois cualquier cosa menos un cobarde!~
+~¿Vos, miedo? Je, me cuesta imaginarlo. ¡Sois cualquier cosa menos una cobarde!~
+@18   = ~Tenéis razón. No podemos hacerlo o si no... no quiero ni pensarlo.~
+@19   = ~Nunca lo había pensado de esta forma, pero... estamos emparentados con ellos a través de Bhaal.~
+~Nunca lo había pensado de esta forma, pero... estamos emparentadas con ellos a través de Bhaal.~
+@20   = ~Los otros Hijos de Bhaal son tan hermanos nuestros como vos lo sois conmigo. Eso pone un poco nuestra relación en perspectiva.~
+@21   	= ~No lo creo. La sangre no es lo único que nos une, Imoen.~
+@22   	= ~Lo hace, en cierto modo.~
+@23   	= ~No me gusta pensarlo de esa forma.~
+@24   	= ~Sois mi hermana, sean cuales sean nuestros vínculos de sangre.~
+@25   = ~Y suerte que tenéis. ¿Quién no me querría como hermana?~
+@26   = ~Aunque supongo que no importa. Vos seguiréis siendo <CHARNAME> y yo Imoen; eso no va a cambiar.~
+@27   = ~Pero vamos, tenemos a unos cuantos hermanos malvados que matar.~
+
+// 2.
+
+@28   = ~Me da un poco de miedo pensar que podríamos haber acabado como ese espectro. Que aún podemos serlo.~
+@29   	= ~Y que lo digáis.~
+@30   	= ~No, nunca acabaremos así.~
+@31   	= ~A mí me faltó poco.~
+@32   	= ~No "da un poco de miedo", es francamente aterrador.~
+@33   = ~Sé lo fácil que sería. Darse por vencida, sucumbir a los susurros de mi cabeza. El impulso de matar, de provocar dolor.~
+@34   = ~Y esos sueños... ¿Qué pasa si me enfrento a ellos pero siempre pierdo? ¿Me convertiría en una máquina de matar, como aquel espectro?~
+@35   = ~No permitiríais que me pasara nada, ¿verdad, <CHARNAME>?~
+@36   	= ~Por supuesto que no.~
+@37   	= ~Antes os mataría.~
+@38   	= ~Esperemos que nunca tengamos que llegar a eso.~
+@39   = ~¿De verdad? Guau... Bueno, incluso si os sentís tentado...~
+~¿De verdad? Guau... Bueno, incluso si os sentís tentada...~
+@40   = ~Gracias. Yo tampoco dejaría que os pasara nada.~
+@41   = ~Je... Nunca hubiera imaginado que esas palabras me confortarían. Supongo que hay una primera vez para todo.~
+@42   = ~Mientras sigamos juntos no tendré de qué preocuparme. Ni tampoco vos.~
+~Mientras sigamos juntas no tendré de qué preocuparme. Ni tampoco vos.~
+@43   = ~Venga, continuemos.~
+
+// 3.
+
+@44   = ~¿Recordáis uno de los desafíos de la bolsa planar, aquel donde os preguntaban si querríais recuperar vuestra inocencia, vuestra duda?~
+@45   	= ~¿Sí? ¿Qué le pasa?~
+@46   	= ~La rechacé, si no recuerdo mal.~
+@47   	= ~Ahora no, Imoen.~
+@48   = ~He estado pensando. Si yo hubiera estado en vuestro lugar, me hubiera sentido tentada. Volver a un tiempo donde no hubiera... nada de esto.~
+@49   = ~Seguramente hubiera aceptado.~
+@50   	= ~No puedo decir que no piense igual.~
+@51   	= ~¿Por qué querríais volver a vivir en la ignorancia?~
+@52   	= ~No todo "esto" ha sido horrible.~
+@53   = ~Pfff, vale. Haced lo que queráis.~
+@54   = ~Me gustaría poder dejar atrás los recuerdos de... vale, muchas cosas. Hemos experimentado de todo, pero siempre habrá algo... que no podremos olvidar.~
+@55   = ~Me gustaría volver a ser inocente otra vez. No tener que preocuparme por ceder ante la mancha.~
+@56   	= ~A mí también me gustaría, pero no podemos permitirnos ese lujo.~
+@57   	= ~¿Y olvidar todo el camino que hemos recorrido hasta ahora? ¿Olvidar todo lo que hemos aprendido?~
+@58   	= ~Habéis pasado por muchas dificultades; evitarlas no solucionaría nada.~
+@59   = ~Quizá no en la ignorancia, pero...~
+@60   = ~Tenéis razón, pero...~
+@61   = ~Sí, eso parece.~
+@62   = ~No. Tenéis razón. Pero hay ciertas cosas que... bueno, más nos hubiera valido olvidar.~
+@63   = ~Supongo que... si no hubiera pasado nada, si me hubiera quedado en Candelero, no sería quien soy ahora. No sería yo.~
+@64   = ~Por aquel entonces solo era una niña que se encargaba de las tareas de Winthrop. Ahora soy una Hija de Bhaal, un poder a tener en cuenta.~
+@65   = ~Ya no soy una niña, y eso ha sido gracias a que he pasado por todo esto. Supongo... supongo que al final no ha sido tan malo como creía.~
+@66   	= ~Os olvidáis de "terrible". Un *terrible* poder a tener en cuenta.~
+@67   	= ~Y ahora estáis ayudando a salvar los reinos de la destrucción causada por los Hijos de Bhaal. Yo diría que lo estáis haciendo más que bien.~
+@68   	= ~¡Y vos sois mi compañera de armas! ¿Qué más podríais querer?~
+@69   	= ~Y después de esta sorprendente revelación, ¿podríamos continuar adelante, por favor?~
+@70   = ~Sí, eso también.~
+@71   = ~¡No, no! ¡Os equivocáis, tontuelo! ¡Es Imoen y su camarada <CHARNAME>! Todo el mundo lo sabe.~
+~¡No, no! ¡Os equivocáis, tontuela! ¡Es Imoen y su camarada <CHARNAME>! Todo el mundo lo sabe.~
+@72   = ~Gracias por este pequeño atisbo de esperanza, <CHARNAME>. "Imoen, ¡estaré a vuestro lado mientras intentáis hacer más llevadera vuestra pesada carga emocional!".~
+@73   = ~Aun así, gracias por escucharme.~
+@74   = ~Gracias por todo, hermanito.~
+~Gracias por todo, hermanita.~
