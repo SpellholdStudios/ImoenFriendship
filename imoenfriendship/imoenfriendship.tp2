@@ -4,68 +4,72 @@
 // Basics
 BACKUP ~imoenfriendship/backup~
 AUTHOR ~K'aeloree (kae@spellholdstudios.net)~
-VERSION ~3.3~
-README ~imoenfriendship/imoenfriendship.html~
+VERSION ~3.43~
+README ~imoenfriendship/imoenfriendship-readme-%LANGUAGE%.html~ ~imoenfriendship/imoenfriendship-readme-english.html~
 
 // Translations
 AUTO_TRA ~imoenfriendship/translations/%s~
 
 ALWAYS
-  ACTION_IF GAME_IS ~eet~ BEGIN
-    OUTER_SET bg2_chapter = 12
-  END ELSE BEGIN
-    OUTER_SET bg2_chapter = 0
-  END
-  OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
-    OUTER_SET bg2_chapter = bg2_chapter + 1
-    OUTER_SPRINT name_source ~bg2_chapter_%i%~
-    OUTER_SET EVAL ~%name_source%~ = bg2_chapter
-  END
 
-  // No exception, everything needs to be converted
-  ACTION_DEFINE_ARRAY ImFrienoconvert BEGIN END
+	ACTION_IF GAME_IS ~eet~ BEGIN
+		OUTER_SET bg2_chapter = 12
+	END ELSE BEGIN
+		OUTER_SET bg2_chapter = 0
+	END
+	OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+		OUTER_SET bg2_chapter = bg2_chapter + 1
+		OUTER_SPRINT name_source ~bg2_chapter_%i%~
+		OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+	END
 
-  // any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
-  ACTION_DEFINE_ARRAY ImFriereload BEGIN Setup END
+	/* Converts tra files to UTF-8 */
 
-  LAF HANDLE_CHARSETS
-    INT_VAR
-      infer_charsets = 1
-    STR_VAR
-      tra_path = EVAL ~%MOD_FOLDER%/Translations~
-      noconvert_array = ImFrienoconvert
-      reload_array = ImFriereload
-  END
+	// No exception, everything needs to be converted
+	ACTION_DEFINE_ARRAY ImFrienoconvert BEGIN END
+
+	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
+	ACTION_DEFINE_ARRAY ImFriereload BEGIN Setup END
+
+	LAF HANDLE_CHARSETS
+		INT_VAR
+			infer_charsets = 1
+		STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/Translations~
+			noconvert_array = ImFrienoconvert
+			reload_array = ImFriereload
+	END
+
 END
 
 
 LANGUAGE ~English~
-         ~English~
+         ~english~
          ~imoenfriendship/translations/english/setup.tra~
-LANGUAGE ~Russian~
-         ~Russian~
+LANGUAGE ~Russian (translation by ArcaneCoast.ru)~
+         ~russian~
          ~imoenfriendship/translations/russian/setup.tra~
-LANGUAGE ~Polish~
-         ~Polish~                                       
+LANGUAGE ~Polish (translation by Lava Del'Vortel)~
+         ~polish~                                       
          ~imoenfriendship/translations/polish/setup.tra~
-LANGUAGE ~Francais~
+LANGUAGE ~Francais (traduction : Isaya)~
          ~french~                                       
          ~imoenfriendship/translations/french/setup.tra~         
-LANGUAGE ~Spanish~
+LANGUAGE ~Spanish (traduccion por Clan DLAN)~
          ~spanish~                                       
          ~imoenfriendship/translations/spanish/setup.tra~     
-LANGUAGE ~Chinese~
+LANGUAGE ~Chinese (translation by Merzbau)~
          ~schinese~                                       
          ~imoenfriendship/translations/schinese/setup.tra~ 
-       
+
+
 // Baldur's Gate II
 BEGIN @0
-  REQUIRE_PREDICATE GAME_IS ~bg2ee bgt tob eet~ @2
+REQUIRE_PREDICATE GAME_IS ~bg2ee bgt tob eet~ @1
 
-// Adding CD_STATE_NOTVALID
-APPEND ~STATE.IDS~
-  ~0x80101FEF CD_STATE_NOTVALID~
-  UNLESS ~CD_STATE_NOTVALID~
+/* CamDawg's custom IsValidForPartyDialogue() state. Thanks Cam!
+   covers STATE_CONFUSED, STATE_FEEBLEMINDED, STATE_SILENCED, STATE_DEAD, STATE_ACID_DEATH, STATE_FLAME_DEATH, STATE_EXPLODING_DEATH, STATE_STONE_DEATH, STATE_FROZEN_DEATH, STATE_HELPLESS, STATE_STUNNED, STATE_PANIC, STATE_BERSERK, STATE_SLEEPING */
+APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~CD_STATE_NOTVALID~
 
 // Compiling dialogue & scripts
 COMPILE ~imoenfriendship/dialogue/imoen2j.d~
