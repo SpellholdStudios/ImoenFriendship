@@ -10,7 +10,7 @@ Baldur's Gate Trilogy and EET<h3>
 </div><br />
 
 
-**Original Author:** K'aeloree  
+**Author:** K'aeloree  
 **Mod Website:** <a href="http://www.spellholdstudios.net/ie/npciep">Spellhold Studios</a>  
 **Mod Forum:** <a href="http://www.shsforums.net/index.php?showforum=574">Imoen Friendship</a><br /><br />
 
@@ -25,7 +25,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## <a name="intro" id="intro"></a>Overview
 
-One of the things many find sorely lacking in the Bioware NPCs are the more complex relationships presented by modern NPC mods--especially in regards to "friendships," the relationships NPCs have with the PC when not romancing them.
+One of the things many find sorely lacking in the Bioware NPCs are the more complex relationships presented by modern NPC mods--especially in regards to "*friendships*", the relationships NPCs have with the PC when not romancing them.
 
 This mod adds a series of dialogues with Imoen, the PC's sister, expanding on Imoen's experiences and struggles.
 
@@ -71,7 +71,7 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: imoenfriendship folder and a setup-imoenfriendship.exe file in your game folder. To install, simply double-click **`setup-imoenfriendship.exe`** and follow the instructions on screen.
 
-Run **`setup-imoenfriendship.exe`** in your game folder to reinstall, uninstall or otherwise change the component settings.
+Run **`setup-imoenfriendship.exe`** in your game folder to reinstall, un-install or otherwise change the component settings.
 
 ## 
 
@@ -87,7 +87,7 @@ In addition to the methods above for removing individual components, you can com
 ## <a name="faq" id="faq"></a>Frequently Asked Questions
 
 **Q: Is the Imoen Friendship compatible with XYZ mod?**  
-A: It most certainly should be, but we have not tested it with every single mod available. If you do encounter an error, please contact K'aeloree (kae@spellholdstudios.net) or alternatively post on the <a href="http://www.shsforums.net">forums</a>.
+A: It most certainly should be, but we have not tested it with every single mod available. If you do encounter an error, please contact <a href="kae@spellholdstudios.net">K'aeloree</a> or alternatively post on the <a href="http://www.shsforums.net">forums</a>.
 
 **Q: When will the friendship start?**  
 A: It should begin not too long after Imoen rejoins the party under Spellhold.
@@ -159,7 +159,7 @@ A: Sure, we'd be happy to. If you are interested in translating, just send us a 
 ##### Version 3.4 (November 24, 2019)
 
 - Added *imoenfriendship.ini* metadata file to support AL|EN's "Project Infinity".
-- tp2 file: fixed wrong strref for REQUIRE_PREDICATE GAME_IS, and added credits for translations in tp2 file.
+- tp2 file: fixed wrong strref for REQUIRE_PREDICATE GAME_IS, and added credits for translations.
 - README command now accepts translated files.
 - Updated deprecated modding tools links.
 - Lower cased files.
@@ -168,18 +168,40 @@ A: Sure, we'd be happy to. If you are interested in translating, just send us a 
 - Updated WeiDU installer to v246.
 - Transfered mod to SpellHold Studios GitHub account.
 
+## 
+
+##### Version 3.3
+
+- Added Chinese translation by Merzbau.
+
+## 
+
+##### Version 3.2
+
+- Isaya's .tra fixes.
+
+## 
+
+##### Version 3.1
+
+- Added Spanish translation (Clan DLAN).
+- Fixed Hell talk.
+
+## 
+
 ##### Version 3.0 (August 24, 2017)
 
 - Added French translation provided by Isaya.
 - BG2EE/EET compatibility with translation support.
-- Added Spanish translation (Clan DLAN) - v3.1.
-- Fixed Hell talk - v3.1.
-- Isaya's .tra fixes - v3.2.
-- Merzbau's Chinese translation - v3.3.
+
+## 
 
 ##### Version 2.1 (August 19, 2012)
 
 - Added Polish translation by Lava Del'Vortel.
+- Transfered mod to SpellHold Studios GitHub account.
+
+## 
 
 ##### Version 2.0 (January 17, 2011)
 
@@ -187,8 +209,11 @@ A: Sure, we'd be happy to. If you are interested in translating, just send us a 
 - Added Russian translation by ArcaneCoast.ru, thanks to prowler and Ardanis_gen1e.
 - Renamed folder/mod to 'imoenfriendship' from 'imoen', stopping technical conflict with Imoen Romance.
 - That doesn't mean I condone using the two mods together! There could still be other incompatibilities, and there sure are conceptual ones!
+- Transfered mod to SpellHold Studios GitHub account.
+
+## 
 
 ##### Version 1.0 (April 28, 2010)
 
-- Initial release
+- Initial release.
 <div align="right"><a href="#top">Back to top</a></div>
