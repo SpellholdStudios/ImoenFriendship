@@ -161,6 +161,7 @@ A: Sure, we'd be happy to. If you are interested in translating, just send us a 
 - Added *imoenfriendship.ini* metadata file to support AL|EN's "Project Infinity".
 - tp2 file: fixed wrong strref for REQUIRE_PREDICATE GAME_IS, and added credits for translations.
 - README command now accepts translated files.
+- Component: added *DESIGNATED* number and "*imoen_friendship*" LABEL.
 - Updated deprecated modding tools links.
 - Lower cased files.
 - Updated and renamed readme files to *imoenfriendship-readme-%LANGUAGE%.html*.

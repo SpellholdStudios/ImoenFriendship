@@ -63,9 +63,13 @@ LANGUAGE ~Chinese (translation by Merzbau)~
          ~imoenfriendship/translations/schinese/setup.tra~ 
 
 
-// Baldur's Gate II
+/* =================================== *
+ *    Imoen Friendship for BG2: ToB    *
+ * =================================== */
+
 BEGIN @0
-REQUIRE_PREDICATE GAME_IS ~bg2ee bgt tob eet~ @1
+REQUIRE_PREDICATE GAME_IS ~bg2ee bgt tob eet~ @1 /* The Imoen Friendship is only compatible with BGII: ToB, BGT and BGII:EE installations. */
+DESIGNATED 0 LABEL ~imoen_friendship~
 
 /* CamDawg's custom IsValidForPartyDialogue() state. Thanks Cam!
    covers STATE_CONFUSED, STATE_FEEBLEMINDED, STATE_SILENCED, STATE_DEAD, STATE_ACID_DEATH, STATE_FLAME_DEATH, STATE_EXPLODING_DEATH, STATE_STONE_DEATH, STATE_FROZEN_DEATH, STATE_HELPLESS, STATE_STUNNED, STATE_PANIC, STATE_BERSERK, STATE_SLEEPING */
