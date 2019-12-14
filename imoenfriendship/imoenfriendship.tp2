@@ -4,7 +4,7 @@
 // Basics
 BACKUP ~imoenfriendship/backup~
 AUTHOR ~K'aeloree (kae@spellholdstudios.net)~
-VERSION ~v3.4~
+VERSION ~v3.5~
 README ~imoenfriendship/imoenfriendship-readme-%LANGUAGE%.html~ ~imoenfriendship/imoenfriendship-readme-english.html~
 
 // Translations
