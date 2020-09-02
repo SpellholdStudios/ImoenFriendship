@@ -3,6 +3,7 @@ IF
     Global("I#ImoenFriendshipActive","GLOBAL",0)
     InParty(Myself)
     GlobalGT("chapter","GLOBAL",%bg2_chapter_3%)
+    !Global("C#IM_ImoenStays","GLOBAL",1) //technical compatibility with Imoen4Ever
 THEN
   RESPONSE #100
     RealSetGlobalTimer("I#ImoenFriendshipTalksTimer","GLOBAL",1200)
