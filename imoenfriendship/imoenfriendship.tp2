@@ -3,8 +3,9 @@
 // --------------------------------------------
 // Basics
 BACKUP ~imoenfriendship/backup~
-AUTHOR ~K'aeloree (kae@spellholdstudios.net)~
-VERSION ~v3.5~
+//AUTHOR ~K'aeloree (kae@spellholdstudios.net)~
+SUPPORT ~http://www.shsforums.net/forum/599-imoen-friendship/~
+VERSION ~v3.6~
 README ~imoenfriendship/imoenfriendship-readme-%LANGUAGE%.html~ ~imoenfriendship/imoenfriendship-readme-english.html~
 
 // Translations
