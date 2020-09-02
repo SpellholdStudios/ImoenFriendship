@@ -4,7 +4,8 @@ ADD_STATE_TRIGGER IMOEN2J 15 ~False()~
 APPEND IMOEN2J
 
 // 1.
-IF ~Global("I#ImoenFriendshipTalks","GLOBAL",2)~ i1.1
+IF WEIGHT #-1
+~Global("I#ImoenFriendshipTalks","GLOBAL",2)~ i1.1
   SAY @0 
   = @1
   ++ @2 DO ~SetGlobal("I#ImoenFriendshipTalks","GLOBAL",3) RealSetGlobalTimer("I#ImoenFriendshipTalksTimer","GLOBAL",3600)~ + i1.2
@@ -95,7 +96,8 @@ END
 
 
 // 2.
-IF ~Global("I#ImoenFriendshipTalks","GLOBAL",4)~ i2.1
+IF WEIGHT #-1
+~Global("I#ImoenFriendshipTalks","GLOBAL",4)~ i2.1
   SAY @34 
   ++ @35 DO ~SetGlobal("I#ImoenFriendshipTalks","GLOBAL",5) RealSetGlobalTimer("I#ImoenFriendshipTalksTimer","GLOBAL",3600)~ + i2.2
   ++ @36 DO ~SetGlobal("I#ImoenFriendshipTalks","GLOBAL",5) RealSetGlobalTimer("I#ImoenFriendshipTalksTimer","GLOBAL",3600)~ + i2.3
@@ -174,7 +176,8 @@ END
 
 
 // 3.
-IF ~Global("I#ImoenFriendshipTalks","GLOBAL",6)~ i3.1
+IF WEIGHT #-1
+~Global("I#ImoenFriendshipTalks","GLOBAL",6)~ i3.1
   SAY @63 
   = @64
   ++ @65 DO ~SetGlobal("I#ImoenFriendshipTalks","GLOBAL",7)~ + i3.2
@@ -244,7 +247,8 @@ END
 
 
 // 4.
-IF ~Dead("c6bodhi") Global("DeathOfBodhi","LOCALS",0)~ i4.1
+IF WEIGHT #-1
+~Dead("c6bodhi") Global("DeathOfBodhi","LOCALS",0)~ i4.1
   SAY @94 
   = @95
   = @96
@@ -280,7 +284,8 @@ END
 
 
 // 5.
-IF ~Global("I#ImoenFriendshipSuld","GLOBAL",2)~ i5.1
+IF WEIGHT #-1
+~Global("I#ImoenFriendshipSuld","GLOBAL",2)~ i5.1
   SAY @109
   ++ @110 DO ~SetGlobal("I#ImoenFriendshipSuld","GLOBAL",3)~ + i5.2
   ++ @111 DO ~SetGlobal("I#ImoenFriendshipSuld","GLOBAL",3)~ + i5.3
@@ -369,7 +374,8 @@ END
 
 
 // 6.
-IF ~Global("I#ImoenFriendshipHell","GLOBAL",2)~ i6.1
+IF WEIGHT #-1
+~Global("I#ImoenFriendshipHell","GLOBAL",2)~ i6.1
   SAY @143 
   ++ @144 DO ~SetGlobal("I#ImoenFriendshipHell","GLOBAL",3)~ + i6.2
   ++ @145 DO ~SetGlobal("I#ImoenFriendshipHell","GLOBAL",3)~ + i6.3

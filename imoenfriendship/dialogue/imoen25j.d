@@ -1,7 +1,8 @@
 APPEND IMOEN25J
 
 // Destruction of Saradush
-IF ~Global("I#ImoenToBSaradush","GLOBAL",2)~ is.1
+IF WEIGHT #-1
+~Global("I#ImoenToBSaradush","GLOBAL",2)~ is.1
   SAY @0
   = @1
   ++ @2 DO ~SetGlobal("I#ImoenToBSaradush","GLOBAL",3)~ + is.2
@@ -72,7 +73,8 @@ END
 
 
 // Gavid (after the first Pocket Plane test)
-IF ~Global("I#ImoenToBPP1","GLOBAL",2)~ ig.1
+IF WEIGHT #-1
+~Global("I#ImoenToBPP1","GLOBAL",2)~ ig.1
   SAY @28
   ++ @29 DO ~SetGlobal("I#ImoenToBPP1","GLOBAL",3)~ + ig.2
   ++ @30 DO ~SetGlobal("I#ImoenToBPP1","GLOBAL",3)~ + ig.2
@@ -116,7 +118,8 @@ END
 
 
 // The Loss of Innocence (after the third Pocket Plane test)
-IF ~Global("I#ImoenToBPP3","GLOBAL",2)~ ii.1
+IF WEIGHT #-1
+~Global("I#ImoenToBPP3","GLOBAL",2)~ ii.1
   SAY @44
   ++ @45 DO ~SetGlobal("I#ImoenToBPP3","GLOBAL",3)~ + ii.2
   ++ @46 DO ~SetGlobal("I#ImoenToBPP3","GLOBAL",3)~ + ii.2
